@@ -1,0 +1,16 @@
+.footer {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.footerLine {
+  width: 90%;
+  margin: 4rem auto 2rem auto;
+  border: none;
+  border-top: 1px solid var(--text-secondary);
+}
+
+.footerText {
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}

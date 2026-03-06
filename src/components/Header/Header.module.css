@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.2rem;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.logo {
+  color: #333;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.logo span{
+  color: #1e3c72;
+  font-weight: 800;
+}
+
+.toggleButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Toggle */
+.toggleTrack {
+  width: 70px;
+  height: 36px;
+  background: #f1c40f;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  transition: background 0.4s ease;
+}
+
+.darkToggleTrack {
+  background: #2c3e50;
+}
+
+.toggleThumb {
+  width: 28px;
+  height: 28px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: transform 0.4s ease, background 0.4s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: #f1c40f;
+  transform: translateX(0);
+}
+
+.darkToggleThumb {
+  transform: translateX(34px);
+  background: #1a252f;
+}
