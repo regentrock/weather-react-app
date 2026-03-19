@@ -7,13 +7,27 @@
   border-bottom: 1px solid rgb(201, 201, 201);
 }
 
+.logoContainer {
+  display: flex;
+  align-items: center;    /* alinha verticalmente imagem e texto */
+  gap: 0.75rem;           /* espaço entre a imagem e o texto */
+}
+
+.logoContainer img {
+  height: 2.5rem;         /* altura fixa para a imagem */
+  width: auto;            /* mantém a proporção */
+  object-fit: contain;    /* evita distorção */
+}
+
 .logo {
   color: #333;
   font-weight: 700;
   font-size: 1.8rem;
+  line-height: 1.2;       /* controla a altura da linha */
+  margin: 0;              /* remove margens padrão do h1 */
 }
 
-.logo span{
+.logo span {
   color: #1e3c72;
   font-weight: 800;
 }
