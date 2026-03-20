@@ -1,4 +1,3 @@
-// SearchBar.jsx
 import styles from './SearchBar.module.css';
 import { FaMagnifyingGlass } from "react-icons/fa6";
 

@@ -1,4 +1,3 @@
-// WeatherInfo.jsx
 import styles from './WeatherInfo.module.css';
 import { FaWind, FaTint, FaThermometerHalf, FaCloud } from "react-icons/fa";
 

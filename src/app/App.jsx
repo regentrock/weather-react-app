@@ -1,8 +1,6 @@
-// App.jsx
 import { useState, lazy, Suspense } from 'react';
 import styles from './App.module.css';
 
-// Lazy load components
 const Header = lazy(() => import('../components/Header/Header'));
 const Footer = lazy(() => import('../components/Footer/Footer'));
 const SearchBar = lazy(() => import('../components/SearchBar/SearchBar'));

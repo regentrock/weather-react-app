@@ -9,22 +9,22 @@
 
 .logoContainer {
   display: flex;
-  align-items: center;    /* alinha verticalmente imagem e texto */
-  gap: 0.75rem;           /* espaço entre a imagem e o texto */
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .logoContainer img {
-  height: 2.5rem;         /* altura fixa para a imagem */
-  width: auto;            /* mantém a proporção */
-  object-fit: contain;    /* evita distorção */
+  height: 2.5rem;
+  width: auto;
+  object-fit: contain;
 }
 
 .logo {
   color: #333;
   font-weight: 700;
   font-size: 1.8rem;
-  line-height: 1.2;       /* controla a altura da linha */
-  margin: 0;              /* remove margens padrão do h1 */
+  line-height: 1.2;
+  margin: 0;
 }
 
 .logo span {
@@ -39,7 +39,6 @@
   padding: 0;
 }
 
-/* Toggle */
 .toggleTrack {
   width: 70px;
   height: 36px;
