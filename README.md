@@ -1,16 +1,90 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web de previsão do tempo desenvolvida com foco em consumo de API externa, experiência do usuário e organização de estados no React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o projeto
 
-## React Compiler
+O Weather App permite ao usuário buscar por cidades e visualizar informações climáticas em tempo real, como temperatura, condições do clima e outros dados relevantes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este projeto foi desenvolvido com o objetivo de praticar integração com APIs REST, manipulação de estados e construção de interfaces responsivas utilizando React.js com foco na experiência do usuário.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+* Busca de cidades em tempo real
+* Exibição de temperatura atual e outros dados climáticos
+* Condições climáticas (nublado, ensolarado, chuva, etc.)
+* Interface responsiva (desktop e mobile)
+* Atualização dinâmica dos dados
+
+---
+
+## Tecnologias utilizadas
+
+* React
+* JavaScript
+* CSS3
+* API REST (OpenWeather ou similar)
+* Git & GitHub
+
+---
+
+## Como rodar o projeto
+
+* Abra o seguinte link para visualizar o projeto: 
+https://weather-react-app-lilac.vercel.app/
+
+ou
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/regentrock/weather-app
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd weather-app
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Configure a API:
+
+Crie um arquivo `.env.local` na raiz do projeto e adicione sua chave da API:
+
+```env
+NEXT_PUBLIC_WEATHER_API_KEY=sua_chave_aqui
+```
+
+5. Rode o projeto:
+
+```bash
+npm run dev
+```
+
+6. Acesse no navegador:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## Autor
+
+Desenvolvido por Ângelo David
+https://github.com/regentrock
+
+---
+
+
+Este projeto está sob a licença MIT.
