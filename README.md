@@ -19,7 +19,8 @@ Este projeto foi desenvolvido com o objetivo de praticar integração com APIs R
 * Condições climáticas (nublado, ensolarado, chuva, etc.)
 * Interface responsiva (desktop e mobile)
 * Atualização dinâmica dos dados
-
+* Opções definidas pelo usuário entre: modo claro/escuro, linguagens inglês/português
+* Aplicação disponível para download, utilizando PWA
 ---
 
 ## Tecnologias utilizadas
@@ -27,8 +28,9 @@ Este projeto foi desenvolvido com o objetivo de praticar integração com APIs R
 * React
 * JavaScript
 * CSS3
-* API REST (OpenWeather ou similar)
+* API REST (OpenWeather)
 * Git & GitHub
+* PWA
 
 ---
 
